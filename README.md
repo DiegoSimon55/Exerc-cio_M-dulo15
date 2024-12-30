@@ -1,24 +1,3 @@
-### **Descrição do Projeto**
-
-O projeto consiste em uma análise exploratória dos dados com foco na **variável Churn**, utilizando as bibliotecas Python **Pandas** e **Plotly**. A análise busca identificar padrões e variáveis que influenciam na taxa de churn de clientes de um serviço, com o objetivo de gerar insights acionáveis para reduzir essa taxa.
-
-#### **Bibliotecas Utilizadas**
-- **Pandas**: Para manipulação e agrupamento de dados.
-- **Plotly**: Para visualização de dados, especialmente gráficos interativos.
-
-#### **Principais Análises**
-1. **Análise Bivariada entre `Tipo_Contrato` e `Churn`**:
-   - Descobriu-se que o tipo de contrato **"Month-to-Month"** apresenta a maior taxa de churn (42%), enquanto contratos anuais ou bienais apresentam taxas significativamente menores.
-   - Sugestões estratégicas foram apresentadas, como incentivar clientes com contratos mensais a migrarem para contratos anuais com descontos ou benefícios adicionais.
-
-2. **Identificação de Variáveis Relevantes para o Churn**:
-   - As variáveis `Tipo_Contrato` e `Tempo_como_Cliente` foram identificadas como as mais impactantes na taxa de churn.
-   - Combinando essas variáveis, é possível traçar estratégias mais assertivas para retenção de clientes.
-
----
-
-### **README para o Projeto**
-
 #### **Título do Projeto**
 Análise de Churn: Explorando Padrões em Tipos de Contrato e Retenção de Clientes
 
